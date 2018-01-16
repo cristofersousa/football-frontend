@@ -96,11 +96,9 @@
     },
     methods: {
       hasSearched() {
-        console.log('cliquei');
         this.showRanking = true
       },
       showAllTeams() {
-        console.log('allteams');
         this.showRanking = false
       }
     },
