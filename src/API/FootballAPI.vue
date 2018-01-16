@@ -14,7 +14,7 @@ export default {
     },
     methods: {
       getbyId() {
-        const url = 'http://api.football-data.org/v1/competitions/';
+        const url = '//api.football-data.org/v1/competitions/';
         const options = {
           headers : {
             'X-Auth-Token': 'c5f99f1e6401461d8c26e51c819e2098',
@@ -30,7 +30,7 @@ export default {
         })
       },
       getAll(id) {
-        const url = `http://api.football-data.org/v1/competitions/${id}/fixtures`;
+        const url = `//api.football-data.org/v1/competitions/${id}/fixtures`;
         const options = {
           headers : {
             'X-Auth-Token': 'c5f99f1e6401461d8c26e51c819e2098',
