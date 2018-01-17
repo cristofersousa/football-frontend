@@ -2,14 +2,29 @@
 
 > Test Frontend Developer
 
+
+## Requirements
+
+``` bash
+# Start
+
+1. Install Node
+
+> curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash
+> sudo apt-get install -y nodejs
+
+2. Install Yarn
+
+> npm install --global yarn
+
+```
+
 ## Build Setup
 
 ``` bash
 
 # Start
 >  git clone https://github.com/cristofersousa/football-frontend.git
->  $ yarn install -g vue-cli
-  [more infos](https://github.com/vuejs/vue-cli)
 >  cd footbal-frontend
 
 # install dependencies
